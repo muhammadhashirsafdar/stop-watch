@@ -1,0 +1,56 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #34495e; 
+    font-family: Arial, sans-serif; 
+}
+
+.stopwatch {
+    text-align: center;
+    margin: 200px auto;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff; 
+}
+
+.heading1, .heading2 {
+    margin-bottom: 50px;
+    color: #ecf0f1; 
+}
+
+.batn {
+    font-size: 24px;
+    padding: 10px 60px;
+    margin: 8px;
+    border: 2px solid #000; 
+    border-radius: 18px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff; 
+    background-color: #3498db; 
+    cursor: pointer;
+}
+
+.batn:hover {
+    background-color: #2980b9; 
+}
+
+
+@media only screen and (max-width:600px){
+    .stopwatch{
+        margin: 100px auto;
+        font-size: 20px;
+    }
+
+    .batn{
+        padding: 8px 40px;
+    }
+
+   
+}
